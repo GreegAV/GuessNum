@@ -20,5 +20,7 @@ while 1 == 1:
         max = test
     if sign == "!":
         print("Урааа!!!!!")
-        print("Угадано за " + str(count) + " попыток.")
+        print("Попыток угадывания: " + str(count))
         break
+
+input()
